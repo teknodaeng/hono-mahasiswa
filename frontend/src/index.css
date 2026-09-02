@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* 
+  ══════════════════════════════════════════════
+  Kustomisasi tema Tailwind v4 menggunakan @theme
+  (Pengganti tailwind.config.js di v3)
+  ══════════════════════════════════════════════
+*/
+@theme {
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-danger: #ef4444;
+  --color-danger-hover: #dc2626;
+  --color-warning: #f59e0b;
+  --color-warning-hover: #d97706;
+  --color-success: #10b981;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

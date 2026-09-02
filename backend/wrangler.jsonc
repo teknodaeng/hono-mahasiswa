@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend-mahasiswa",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "TURSO_DATABASE_URL": "libsql://mahasiswadb-aliefrahman.aws-ap-northeast-1.turso.io"
+  }
+}
